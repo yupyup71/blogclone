@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "html-react-parser": "^3.0.16",
+    "momnet": "^2.29.1",
+    "react-multi-carousel": "^2.8.4",
+    "sass": "^1.62.1"
+  }
+}
