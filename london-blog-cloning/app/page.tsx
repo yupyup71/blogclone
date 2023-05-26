@@ -23,7 +23,7 @@ export default async function Home() {
         {projects.map((project) => (
           <div
             key={project._id}
-            className="border border-grey-500 rounded-lg p-3 text-center"
+            className="border border-gray-500 rounded-lg p-3 text-center"
           >
             {project.image && (
               <Image
