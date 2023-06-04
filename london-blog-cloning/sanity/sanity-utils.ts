@@ -21,8 +21,7 @@ export async function getProjects(): Promise<Project[]> {
   );
 }
 
-export async function getProject(slug: string): Promise<Project>{
-
+export async function getProject(slug: string): Promise<Project> {
   const client = createClient({
     projectId: "9ypsgm42",
     dataset: "production",
@@ -39,6 +38,6 @@ export async function getProject(slug: string): Promise<Project>{
             url,
             content
         }`,
-        {slug}
+    { slug }
   );
 }

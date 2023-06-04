@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <div className="max-w-5xl mx-auto py-20">
       <h1 className="text-7xl font-extrabold">
-        Hello I&apos;'m{" "}
+        Hello I&apos;m{" "}
         <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
           Nicolas!
         </span>
@@ -31,12 +31,12 @@ export default async function Home() {
               <Image
                 src={project.image}
                 alt={project.name}
-                width={250}
-                height={100}
-                className="object-cover rounded-lg border border-gray-500"
+                width={300}
+                height={40}
+                className="h-60 w-200 object-contain rounded-lg border border-gray-500"
               />
             )}
-            <div className="font-extrabold text-gray-700 text-2xl">
+            <div className="font-extrabold text-gray-700 text-2xl py-2">
               {project.name}
             </div>
           </Link>
