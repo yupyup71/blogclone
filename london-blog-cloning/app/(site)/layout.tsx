@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
@@ -16,12 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
-        <main className="py-20">
+      <body className="max-w-4xl mx-auto py-5">
+        <main className="py-7">
           <header>
             <Link
               href="/"
-              className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold"
+              className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-2xl font-bold"
             >
               Home
             </Link>
