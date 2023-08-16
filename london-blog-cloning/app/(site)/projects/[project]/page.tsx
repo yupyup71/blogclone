@@ -16,7 +16,7 @@ export default async function Project({ params }: Props) {
   const project2 = await getProject(slug); //이해함 (위에서 받은 slug로 project를 받아 오는 것)
 
   return (
-    <div className="max-w-3xl mx-auto py-20">
+    <div>
       <header className="flex items-center justify-between">
         <h1 className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-5xl drop-shadow-lg font-extrabold">
           {project2.name}
